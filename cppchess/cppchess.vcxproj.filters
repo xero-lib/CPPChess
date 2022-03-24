@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Pieces">
+      <UniqueIdentifier>{7bae25a7-c767-4df0-b9d3-dc3ea56fc3b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{c9a9e47f-bac1-430f-bafd-845e7be8a25c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Calculation">
+      <UniqueIdentifier>{3121d312-1e82-43c9-8ef4-2b71635a5b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Calculation\filterOffsets">
+      <UniqueIdentifier>{a5af9397-c6e0-4cdf-9c75-ca9dacf078e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Calculation\filterWatches">
+      <UniqueIdentifier>{aa7e31a6-364a-448d-b7aa-3bdc8a5e2c25}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="piece.cpp">
+      <Filter>Source Files\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="bishop.cpp">
+      <Filter>Source Files\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="piece_init.cpp">
+      <Filter>Source Files\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="rook.cpp">
+      <Filter>Source Files\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="knight.cpp">
+      <Filter>Source Files\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="king.cpp">
+      <Filter>Source Files\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="move.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="pawn.cpp">
+      <Filter>Source Files\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="calculation_delegator.cpp">
+      <Filter>Source Files\Calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="offsets_pawn.cpp">
+      <Filter>Source Files\Calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="filter_offsets_up.cpp">
+      <Filter>Source Files\Calculation\filterOffsets</Filter>
+    </ClCompile>
+    <ClCompile Include="delegate_sources.hpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="filter_offsets_down.cpp">
+      <Filter>Source Files\Calculation\filterOffsets</Filter>
+    </ClCompile>
+    <ClCompile Include="filter_offsets_left.cpp">
+      <Filter>Source Files\Calculation\filterOffsets</Filter>
+    </ClCompile>
+    <ClCompile Include="filter_offsets_right.cpp">
+      <Filter>Source Files\Calculation\filterOffsets</Filter>
+    </ClCompile>
+    <ClCompile Include="printBoard.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="filter_offsets_down_left.cpp">
+      <Filter>Source Files\Calculation\filterOffsets</Filter>
+    </ClCompile>
+    <ClCompile Include="filter_offsets_up_left.cpp">
+      <Filter>Source Files\Calculation\filterOffsets</Filter>
+    </ClCompile>
+    <ClCompile Include="filter_offsets_down_right.cpp">
+      <Filter>Source Files\Calculation\filterOffsets</Filter>
+    </ClCompile>
+    <ClCompile Include="queen.cpp">
+      <Filter>Source Files\Pieces</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="board.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bishop.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="piece.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="piece_init.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rook.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="filter_offsets.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="queen.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="filter_offsets_up_right.cpp">
+      <Filter>Source Files\Calculation\filterOffsets</Filter>
+    </None>
+  </ItemGroup>
+</Project>

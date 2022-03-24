@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cppchess", "cppchess\cppchess.vcxproj", "{A651E1FE-7171-441E-BC8D-03F171A4CAFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A651E1FE-7171-441E-BC8D-03F171A4CAFB}.Debug|x64.ActiveCfg = Debug|x64
+		{A651E1FE-7171-441E-BC8D-03F171A4CAFB}.Debug|x64.Build.0 = Debug|x64
+		{A651E1FE-7171-441E-BC8D-03F171A4CAFB}.Debug|x86.ActiveCfg = Debug|Win32
+		{A651E1FE-7171-441E-BC8D-03F171A4CAFB}.Debug|x86.Build.0 = Debug|Win32
+		{A651E1FE-7171-441E-BC8D-03F171A4CAFB}.Release|x64.ActiveCfg = Release|x64
+		{A651E1FE-7171-441E-BC8D-03F171A4CAFB}.Release|x64.Build.0 = Release|x64
+		{A651E1FE-7171-441E-BC8D-03F171A4CAFB}.Release|x86.ActiveCfg = Release|Win32
+		{A651E1FE-7171-441E-BC8D-03F171A4CAFB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88A033ED-2625-41F4-956C-9EFBE0D56EF0}
+	EndGlobalSection
+EndGlobal
