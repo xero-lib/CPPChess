@@ -96,6 +96,9 @@
     <ClCompile Include="queen.cpp">
       <Filter>Source Files\Pieces</Filter>
     </ClCompile>
+    <ClCompile Include="filter_offsets_up_right.cpp">
+      <Filter>Source Files\Calculation\filterOffsets</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="board.hpp">
@@ -125,10 +128,5 @@
     <ClInclude Include="queen.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="filter_offsets_up_right.cpp">
-      <Filter>Source Files\Calculation\filterOffsets</Filter>
-    </None>
   </ItemGroup>
 </Project>

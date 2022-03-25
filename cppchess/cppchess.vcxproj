@@ -150,6 +150,7 @@
     <ClCompile Include="filter_offsets_right.cpp" />
     <ClCompile Include="filter_offsets_up.cpp" />
     <ClCompile Include="filter_offsets_up_left.cpp" />
+    <ClCompile Include="filter_offsets_up_right.cpp" />
     <ClCompile Include="king.cpp" />
     <ClCompile Include="knight.cpp" />
     <ClCompile Include="main.cpp" />
@@ -172,9 +173,6 @@
     <ClInclude Include="queen.hpp" />
     <ClInclude Include="rook.hpp" />
     <ClInclude Include="util.hpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="filter_offsets_up_right.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

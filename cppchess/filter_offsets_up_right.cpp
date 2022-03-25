@@ -37,12 +37,12 @@ std::vector<Coordinate> filterOffsetsUR(
 	{
 		int cy = currentOffsets[i].y;
 		int cx = currentOffsets[i].x;
-		
+
 		if (
 			cy <= 0 ||
 			cx <= 0 ||
 			(cy <= distance && cx <= distance)
-		)
+			)
 		{
 			outOffsets.push_back(currentOffsets[i]);
 		}
